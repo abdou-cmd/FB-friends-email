@@ -69,7 +69,7 @@ for idd in friends_id_list:
     jdata=json.loads(data.text)
     if "name" in jdata:
             name=jdata["name"]
-            print name , 
+            print (name) , 
             if xma:
         		# Replace the html entity from the scraped information
                 email = xma.group(1).replace('%40', '@')
